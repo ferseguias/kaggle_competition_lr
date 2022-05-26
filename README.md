@@ -15,6 +15,8 @@ Apart from the obvious objective of winning the competition, I focused efforts o
 # Step by step of the process 🏃🏽‍♂️
 1. Problem understanding: data exploration with visualization and online research to get fundamental knowleadge of the field we are analizyng in order to improve our decisions and results. Detect correlations between variables and plot analyzed data.
 
+![portada](https://raw.githubusercontent.com/ferseguias/project_3/main/images/Screenshot%202022-05-26%20at%2021.56.01.png)
+
 2. Prepare data for applying models: remove inconsistent data, outliers management and provide data strucure, encoding and standarizarion of X variables prior next step.
 
 3. Machine learning: once the data is clean and variables are carefully selected, trial and test is key. It is important to be able to evaluate our model, this is why `train`, `test` split has to be used `from sklearn.model_selection import train_test_split`. 80% of data is used to train the model, remaining 20% to evaluate it's performance. Big differences between stats on predicted train and test might evidence under/over fitting. Our goal is to get the lower RMSE (standard deviation of the residuals - prediction errors). A nice way to get the best combination of parameters for each model is using GridSearchCV tool `from sklearn.model_selection import GridSearchCV`. A set of parameters are provided and the model is evaluating each combination to get best parameter set.
