@@ -26,7 +26,9 @@ Apart from the obvious objective of winning the competition, I focused efforts o
 5. Predict and submit results: before running the predictive model into test data, all transformation procedures applied to the data used for training should be applied accordingly to test. It is suggested to re-train the model using 100% of train data (without splitting 80%-20%) to get adjusted results in prediction.
 
 # Results 📈
-According to the best model submitted during the competition, my prediction has RMSE of 0.09494 which represents a 2.34% error over real price (price range = 4.055).
+According to the best model submitted during the competition, my prediction has RMSE of 0.09494 which represents a 2.34% error over real price (price range = 4.055). Congrats to other participants! 👏🏼
+
+![portada](https://raw.githubusercontent.com/ferseguias/project_3/main/images/Screenshot%202022-05-26%20at%2022.07.19.png)
 
 # Tools 🔧
 
